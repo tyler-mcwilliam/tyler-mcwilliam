@@ -2,16 +2,16 @@
 .card-white {
   background-color: white;
   padding: 40px;
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  box-shadow: 80px 80px 80px rgba(0,0,0,0.1);
   border-radius: 4px;
   margin: 20px 0px;
   text-align: center;
   }
 
 .container {
-  background: #F7F9FC;
+  background: #DAE2DF;
   color: #575F7D;
-  font-family: 'Lora', serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 17px;
   font-weight: lighter;
   margin: 40px auto;
@@ -21,7 +21,7 @@
 body {
   display: block;
   margin: 8px;
-  background: #F7F9FC;
+  background: #DAE2DF;
 }
 
 img {
@@ -29,11 +29,22 @@ img {
 }
 
 a {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   text-decoration: none;
-  color: black;
+  color: #575F7D;
   font-weight: 600;
   font-size: 16px;
+}
+
+
+
+.language-list {
+  font-family: 'Noto Sans', sans-serif;
+
+}
+
+.language-list > li {
+  list-style: none;
 }
 
 .list > li {
@@ -44,7 +55,7 @@ a {
 
 .list i {
   font-size: 50px;
-  color: black;
+  color: #575F7D;
 }
 
 .list i:hover {
