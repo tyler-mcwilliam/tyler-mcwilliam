@@ -2,14 +2,13 @@
 .card-white {
   background-color: white;
   padding: 40px;
-  box-shadow: 80px 80px 80px rgba(0,0,0,0.1);
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
   border-radius: 4px;
   margin: 20px 0px;
   text-align: center;
   }
 
 .container {
-  background: #DAE2DF;
   color: #575F7D;
   font-family: 'Noto Sans', sans-serif;
   font-size: 17px;
@@ -21,7 +20,7 @@
 body {
   display: block;
   margin: 8px;
-  background: #DAE2DF;
+  background: #EEF5F7;
 }
 
 img {
@@ -78,6 +77,10 @@ a {
   .container {
     width: 500px;
   }
+
+  .card-white {
+    text-align: center;
+  }
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
@@ -107,5 +110,9 @@ a {
 }
 
 .language-list {
+  padding: 0;
+}
+
+.list {
   padding: 0;
 }
