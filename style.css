@@ -45,6 +45,7 @@ a {
 
 .language-list > li {
   list-style: none;
+  padding: 0;
 }
 
 .list > li {
@@ -55,15 +56,15 @@ a {
 
 .list i {
   font-size: 50px;
-  color: #575F7D;
+  color: #FF5A5F;
 }
 
 .list i:hover {
-  color: red;
+  color: #575F7D;
 }
 
-.card-white a:hover {
-  color: red;
+.card-white .btn:hover {
+  background-color: #575F7D;
 }
 
 @media (max-width: 960px) {
@@ -83,4 +84,28 @@ a {
   .container {
     width: 300px;
   }
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  background-color: #FF5A5F;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px black;
+  padding: 8px 16px;
+  width: 120px;
+  margin-left: 230px;
+}
+
+.btn > a {
+  color: white;
+}
+
+.btn:hover {
+  background-color: #FF5A5F;
+  color: #575F7D;
+}
+
+.language-list {
+  padding: 0;
 }
