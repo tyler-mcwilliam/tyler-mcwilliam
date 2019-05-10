@@ -66,10 +66,13 @@ a {
   background-color: #575F7D;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1440px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
+  }
+  .btn {
+    margin-left: 230px;
   }
 }
 @media (max-width: 720px) {
@@ -77,15 +80,20 @@ a {
   .container {
     width: 500px;
   }
-
   .card-white {
     text-align: center;
+  }
+  .btn {
+    margin-left: 130px;
   }
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
+  }
+  .btn {
+    margin-left: 35px;
   }
 }
 
@@ -97,7 +105,6 @@ a {
   box-shadow: 2px 2px 5px black;
   padding: 8px 16px;
   width: 120px;
-  margin-left: 230px;
 }
 
 .btn > a {
