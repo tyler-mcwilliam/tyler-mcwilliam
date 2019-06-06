@@ -1,6 +1,6 @@
 
 .card-white {
-  background-color: white;
+  background-color: #EEF5F7;
   padding: 40px;
   box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
   border-radius: 4px;
@@ -20,7 +20,7 @@
 body {
   display: block;
   margin: 8px;
-  background: #EEF5F7;
+  background: #575F7D;
 }
 
 img {
