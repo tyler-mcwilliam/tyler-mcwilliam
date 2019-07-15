@@ -24,7 +24,8 @@ body {
 }
 
 img {
-  border-radius: 50%;
+    border-radius: 50px;
+    width: 80%;
 }
 
 a {
